@@ -19,14 +19,14 @@ a {
 }
 
 body {
-    background: linear-gradient(Black, rgba(21, 3, 65, 0.781));
-    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
-    color: white;
+    color: black;
 }
 
 .header {
-    background-color: white;
+    background-color: lavenderblush;
     display: flex;
     padding: 10px;
     justify-content: space-between;
@@ -66,5 +66,40 @@ form {
 h1 {
     text-align: center;
     padding: 30px;
+}
+
+.content-photos {
+    margin-top: 40px;
+    /* border : 1px solid black; */
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-1,
+.photo-2,
+.photo-3,
+.photo-4 {
+    display: flex;
+}
+
+.photos > img{
+    width: 400px;
+    height: auto;
+    max-height: 400px;
+}
+
+.photos {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    background: #F0FFFA;
+}
+
+p {
+    margin-bottom: 5px;
+    font-size: 24px;
+    text-align: center;
 }
 
